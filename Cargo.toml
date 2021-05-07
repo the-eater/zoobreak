@@ -1,0 +1,14 @@
+[package]
+name = "zoobreak"
+version = "0.1.0"
+authors = ["eater"]
+edition = "2018"
+
+[lib]
+# Let us create a DLL
+crate-type = ["cdylib"]
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.58.1"
